@@ -1,0 +1,31 @@
+body {
+  background-image: url("extraImages/banner.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: (hwb(219 39% 7%));
+}
+
+#title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  display: block;
+}
+#ball {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 20%;
+}
+#start {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 450px;
+}
