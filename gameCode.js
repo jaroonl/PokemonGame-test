@@ -1,13 +1,26 @@
 const list = [
   "Bulbasaur",
   "Ivysaur",
-  "Venasaur",
-  "Squirtle",
-  "Wartortle",
-  "Blaustoise",
+  "Venusaur",
   "Charmander",
   "Charmeleon",
   "Charizard",
+  "Squirtle",
+  "Wartortle",
+  "Blastoise",
+  "Caterpie",
+  "Metapod",
+  "Butterfree",
+  "Weedle",
+  "Kakuna",
+  "Beedrill",
+  "Pidgey",
+  "Pidgeotto",
+  "Pidgeot",
+  "Rattata",
+  "Raticate",
+  "Spearow",
+  "Fearow",
 ];
 
 const output = document.querySelector(".output");
@@ -22,8 +35,6 @@ function loadList() {
     temp += `<li class="list-item"> ${item} </li>`;
   });
   temp += `</ul>`;
-
-  output.innerHTML = temp;
 }
 
 function filter(e) {
