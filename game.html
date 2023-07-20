@@ -5,19 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="gameStyle.css" />
+    <script
+      src="https://kit.fontawesome.com/95fde648f9.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Pokemon Guessing Game</title>
   </head>
   <body>
-    <img src="pokemon/1.png" alt="one" id="one" />
     <img src="extraImages/wtp.png" alt="wtp" id="wtp" />
+    <img id="randomImage" src="" alt="randomImage" />
 
-    <div class="container">
-      <input
-        type="text"
-        placeholder=" Enter a Pokémon..."
-        class="filter-input"
-      />
-      <div class="output"></div>
+    <div class="search-box">
+      <div class="row">
+        <input
+          type="text"
+          id="input-box"
+          placeholder="Enter a Pokemon"
+          autocomplete="off"
+        />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div class="result-box"></div>
     </div>
     <script src="gameCode.js"></script>
   </body>
